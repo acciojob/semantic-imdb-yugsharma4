@@ -13,7 +13,6 @@ header{
 	font-size:40px;
 }
 .btn-container{
-	
 	padding: 10px;
 	margin: auto;
 }
@@ -24,9 +23,59 @@ header{
 	background:transparent;
 	margin: 0 20px;
 }
+
+.btn-container a:hover{
+	color: lightcoral;
+}
+.summary{
+	line-height: 1.8;
+	letter-spacing: 1.5px;
+}
+
 .actors{
 	display:flex;
+	padding: 15px;
+/* 	border: 1px solid red; */
+}
+.actors > div > img{
+	width : 180px;
+	height: 240px;
+	object-fit: cover;
 }
 .actors div{
 	margin:0 10px;
+}
+
+.quotes{
+	padding: 15px;
+	background: lightblue;
+}
+
+
+.quotes > div> label{
+	color: red;
+}
+
+.quotes > div> p{
+	font-style:italic;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+aside{
+	background: lightgray;
+	padding: 10px;
+	font-size: 1.1rem;
+}
+
+aside > label{
+	font-weight: bold;
+}
+
+footer{
+	background: lightgray;
+	padding: 15px;
+}
+footer > span{
+	font-weight: bold;
 }
