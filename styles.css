@@ -32,31 +32,31 @@ header{
 	letter-spacing: 1.5px;
 }
 
-.actors{
+#actor{
 	display:flex;
 	padding: 15px;
 /* 	border: 1px solid red; */
 }
-.actors > div > img{
+#actor > div > img{
 	width : 180px;
 	height: 240px;
 	object-fit: cover;
 }
-.actors div{
+#actor div{
 	margin:0 10px;
 }
 
-.quotes{
+#quote{
 	padding: 15px;
 	background: lightblue;
 }
 
 
-.quotes > div> label{
+#quote > div> label{
 	color: red;
 }
 
-.quotes > div> p{
+#quote > div> p{
 	font-style:italic;
 	font-size: 1.2rem;
 	font-weight: bold;
