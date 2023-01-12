@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.actors{
+	display:flex;
+}
+.actors div{
+	margin:0 10px;
+}
