@@ -32,7 +32,11 @@ header{
 	letter-spacing: 1.5px;
 }
 
-#actor{
+/* #actor{
+	display:flex;
+	padding: 15px;
+} */
+#nav-actor > section{
 	display:flex;
 	padding: 15px;
 }
